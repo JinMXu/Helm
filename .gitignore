@@ -1,0 +1,24 @@
+/target
+**/*.rs.bk
+
+# Tauri
+/crates/helm-tauri/target
+/crates/helm-tauri/frontend/node_modules
+/crates/helm-tauri/frontend/dist
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Agent / local dev
+.agent/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
