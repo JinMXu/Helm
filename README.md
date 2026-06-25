@@ -11,6 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
   <a href="https://github.com/JinMXu/Helm/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" /></a>
+  <a href="README.zh-CN.md">中文</a>
 </p>
 
 ---
