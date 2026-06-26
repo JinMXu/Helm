@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 //! Tauri GUI entry point for Helm.
 //!
 //! Wires helm-core to Tauri commands, starts a background scan loop that
