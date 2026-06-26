@@ -19,18 +19,25 @@
 ## Features
 
 - **Smart detection** — identifies dev servers via Git repo, process name whitelist, and Docker detection
-- **Local-only by default** — filters to `localhost` / `127.0.0.1` / `0.0.0.0` / `::1`, toggle to see all ports
+- **Local-only by default** — filters to `localhost` / `127.0.0.1` / `0.0.0.0` / `::1`; toggle to see all ports
+- **Project-aware** — shows project name and Git branch at a glance
 - **Process details** — expand a row to see Git branch, repo name, uptime, full command line
 - **Kill ports** — graceful (SIGTERM) + force kill (SIGKILL), with toast feedback
 - **Find free port** — tries preferred ports, falls back to OS-assigned ephemeral
 - **Open in browser** — one-click `http://localhost:{port}`
+- **Keyboard shortcuts** — `/` to search, `r` to refresh, `Esc` to collapse
 - **System tray** — resident; click to toggle the window
 - **i18n** — Chinese / English, auto-detects system language, persisted toggle
+- **Dark mode** — follows system preference
 
 ## Screenshots
 
 <p align="center">
-  <em>Compact rows with expandable details — Git branch, repo, uptime, command line</em>
+  <img src="screenshot.png" alt="Helm port list" width="800" />
+</p>
+
+<p align="center">
+  <em>6-column table with expandable details — project name, Git branch, running time, command line</em>
 </p>
 
 ## Installation
